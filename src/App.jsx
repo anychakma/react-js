@@ -1,15 +1,17 @@
- export function App(){
+export function Gallery(){
+    return (
+       <section>
+           <h1>This is my Gallery</h1>
+           <Profile/>
+   
+       </section>
+    )  
+   }
 
 
-    // let text = "Hi"
-     let x = 5;
-    // if(x<10){
-    //     text = "Hello"
-    // }
 
-return (
-    <>
-    <h1> {x <10 ? "Hi" : "Hello"}</h1>
-    </>
-);
+function Profile(){
+    return (<div>
+                <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />
+        </div>)
 }
